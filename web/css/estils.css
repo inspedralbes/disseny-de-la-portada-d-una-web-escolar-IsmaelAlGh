@@ -1,0 +1,61 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header{
+    text-align: center;
+}
+ 
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+  }
+
+  a{
+    color:rgb(134, 205, 226);
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: rgb(187, 239, 255);
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid rgb(187, 239, 255);
+    border-bottom: 5px solid rgb(187, 239, 255);
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */

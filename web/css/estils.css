@@ -4,6 +4,38 @@
 header{
     text-align: center;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2fr, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: rgb(255, 187, 187);
+  
+}
+.one {
+  background-color: rgb(189, 189, 255);
+}
+.two {
+
+  background-color: rgb(189, 189, 255);
+}
+.three {
+
+  background-color: rgb(189, 189, 255);
+}
+.four {
+
+  background-color: rgb(189, 189, 255);
+}
+.five {
+
+  background-color: rgb(189, 189, 255);
+}
+.six {
+
+  background-color: rgb(189, 189, 255);
+}
  
 * {
     box-sizing: border-box;
